@@ -12,8 +12,8 @@ end
 
 do
 	sanitizeModule('os')
-	sanitizeModule('io')
-	sanitizeModule('lfs')
+	-- sanitizeModule('io')
+	-- sanitizeModule('lfs')
 	require = nil
 	loadlib = nil
 end
