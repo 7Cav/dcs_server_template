@@ -1,0 +1,16 @@
+{
+    "enable": true,
+    "culture": "en-EN",
+    "atis": [
+        "This is %(name) arrival information %(information) recorded at %(time) locale.",
+        "Main landing runway %(runway).",
+        "Transition level 50.",
+        "%(wind_dir) degrees, %(wind_speed_imp) %(unit_speed_imp).",
+        "Visibility %(visibility_imp) %(unit_distance_imp).",
+        "Temperature %(temperature) degrees.",
+        "QNH %(qnh) hectopascal.",
+        "Contact Approach and Arrival callsign only.",
+        "%(comment)",
+        "End of information %(information)."
+    ]
+}
