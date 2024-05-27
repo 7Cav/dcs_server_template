@@ -11,4 +11,12 @@ lotatc_inst.options =  {
     export_log = false,
     export_tacview = false,
     perfs_tests = false,
+    red_password = "red",
+    blue_password = "blue",
+    chat_connect_message = "coalition",
+    port = 10320,
+    use_jsonserver = true,
+    jsonserver_port = 8070,
+    srs_use_transponder = true,
+    srs_transponder_port = 10710,
 }

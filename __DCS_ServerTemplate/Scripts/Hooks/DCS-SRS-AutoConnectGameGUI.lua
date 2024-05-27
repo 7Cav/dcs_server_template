@@ -10,12 +10,12 @@
 local SRSAuto = {}
 
 SRSAuto.SERVER_SRS_HOST_AUTO = true -- if set to true SRS will set the SERVER_SRS_HOST for you!
-SRSAuto.SERVER_SRS_PORT = "5001" --  SRS Server default is 5002 TCP & UDP
+SRSAuto.SERVER_SRS_PORT = "5000" --  SRS Server default is 5002 TCP & UDP
 SRSAuto.SERVER_SRS_HOST = "75.6.53.51" -- overridden if SRS_HOST_AUTO is true -- set to your PUBLIC ipv4 address or domain srs.example.com
 SRSAuto.SERVER_SEND_AUTO_CONNECT = true -- set to false to disable auto connect or just remove this file 
 
 ---- SRS CHAT COMMANDS ----
-SRSAuto.CHAT_COMMANDS_ENABLED = false -- if true type -freq, -freqs or -frequencies in ALL chat in multilayer to see the frequencies
+SRSAuto.CHAT_COMMANDS_ENABLED = true -- if true type -freq, -freqs or -frequencies in ALL chat in multilayer to see the frequencies
 
 SRSAuto.SRS_FREQUENCIES = {
     ["red"]= "ATC = 124, GCI = 126, Helicopters = 30FM", -- edit this to the red frequency list
@@ -25,7 +25,7 @@ SRSAuto.SRS_FREQUENCIES = {
 
 
 ---- SRS NUDGE MESSAGE ----
-SRSAuto.SRS_NUDGE_ENABLED = false -- set to true to enable the message below
+SRSAuto.SRS_NUDGE_ENABLED = true -- set to true to enable the message below
 SRSAuto.SRS_NUDGE_TIME = 600 -- SECONDS between messages to non connected SRS users
 SRSAuto.SRS_MESSAGE_TIME = 30 -- SECONDS to show the message for
 SRSAuto.SRS_NUDGE_PATH = "C:\\Program Files\\DCS-SimpleRadio-Standalone\\clients-list.json" -- path to SERVER JSON EXPORT - enable Auto Export List on the server

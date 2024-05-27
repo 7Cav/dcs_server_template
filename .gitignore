@@ -1,6 +1,13 @@
-__Startup_Scripts/*
+_-Startup_Scripts-_/*
 __SRS_Config_Files/*
 __DCS_ServerTemplate/Slmod/Chat Logs/*
 __DCS_ServerTemplate/Slmod/SlmodStats.lua
 *.log
 desktop.ini
+.vscode/settings.json
+Main_server_1/*
+Main_server_2/*
+Operation_Server/*
+Training_Server_1/*
+Training_Server_2/*
+Training_Server_3/*
