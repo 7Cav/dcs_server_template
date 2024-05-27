@@ -1,0 +1,6 @@
+__Startup_Scripts/*
+__SRS_Config_Files/*
+__DCS_ServerTemplate/Slmod/Chat Logs/*
+__DCS_ServerTemplate/Slmod/SlmodStats.lua
+*.log
+desktop.ini
